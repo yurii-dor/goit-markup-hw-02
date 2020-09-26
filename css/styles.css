@@ -6,9 +6,12 @@
 .title-color {
     color: var(--title-text-color);
 }    
+.link {
+    color: black;
+}
 .link-color:hover,
 .link-color:focus {
-    color: var(--title-text-color);
+    color: #2196F3;
 }   
 .text-color {
     color: var(--primary-text-color);
@@ -24,4 +27,9 @@
 }
 .logo-title {
     color: var(--accent-color);
+}
+.button:hover,
+.button:focus {
+    background-color: #2196F3;
+    color: #ffffff;
 }
