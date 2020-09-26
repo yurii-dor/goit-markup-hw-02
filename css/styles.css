@@ -1,0 +1,27 @@
+:root {
+    --accent-color: #2196F3;
+    --title-text-color: #212121;
+    --primary-text-color: #757575;
+}
+.title-color {
+    color: var(--title-text-color);
+}    
+.link-color:hover,
+.link-color:focus {
+    color: var(--title-text-color);
+}   
+.text-color {
+    color: var(--primary-text-color);
+}
+.section-team {
+    background-color: #F5F4FA;
+}
+.page-footer {
+    background-color: #3A392F;
+}
+.footer-text {
+    color: #ffffff;
+}
+.logo-title {
+    color: var(--accent-color);
+}
